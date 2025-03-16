@@ -1,0 +1,16 @@
+/* styles.css (or e-commerce.component.css if specific to a component) */
+
+h1 {
+    text-align: center;
+    color: #eaeff5;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  app-product, app-order-tracking {
+    display: block;
+    margin: 20px auto;
+    max-width: 800px;
+    width: 100%;
+  }
+  

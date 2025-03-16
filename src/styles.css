@@ -1,0 +1,22 @@
+/* Global Styles - styles.css */
+
+/* Ensure full-page white background */
+html, body { 
+    height: 100%; 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    background-color: white; /* Set overall background to white */
+    color: black; /* Ensure text is black */
+  }
+  
+  /* Improve text readability */
+  body { 
+    line-height: 1.6; 
+    padding: 10px;
+  }
+  
+  /* Ensure all text is black */
+  h1, h2, p, span, strong {
+    color: black;
+  }
+  
