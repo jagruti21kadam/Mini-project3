@@ -1,0 +1,34 @@
+/* order-tracking.component.css */
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  li {
+    background: #f0f8ff; /* Light blue (softer than product box) */
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+  }
+  
+  li strong {
+    color: black;
+  }
+  
+  li:nth-child(odd) {
+    background: #d0e8ff; /* Slightly different shade for alternating rows */
+  }
+  
